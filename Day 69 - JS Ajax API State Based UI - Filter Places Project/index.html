@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Based UI Favourite and Vistited Places</title>
+		<!-- Styles -->
+        <link rel="stylesheet" href="css\style.css">
+	</head>
+
+	<body>
+        <h1>Data Reactive State Based Component UI - Explore Places</h1>
+        <p>Explore cool, quirky places in your own backyard.</p>
+        <div class="filters">
+            <strong>Filter:</strong>
+            <label>
+                <input type="radio" name="view" value="all" checked>
+                All Places
+            </label>
+        
+            <label>
+                <input type="radio" name="view" value="faves">
+                Favorites
+            </label>
+        
+            <label>
+                <input type="radio" name="view" value="visited">
+                Visited
+            </label>
+        
+            <label>
+                <input type="radio" name="view" value="not-visited">
+                Not Visited
+            </label>
+        </div>
+        <div id="app">Loading.....
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/reefjs@7/dist/reef.js"></script>
+    <script type="text/javascript" src="script\proxyReactiveData.js"></script>
+    </html>
