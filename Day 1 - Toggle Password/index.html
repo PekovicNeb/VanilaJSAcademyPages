@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Visibility</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+	<div class="container">
+	<h1>Password Visibility</h1>
+
+	<p>Enter your username and password to login.</p>
+	<form>
+		<div class="form-group">
+			<label for="username">Username</label>
+			<input type="text" class="form-control" name="username" id="username">
+		</div>
+
+		<div class="form-group">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" name="password" id="password">
+		</div>
+
+		<div class="checkbox">
+			<label for="toggle">
+				<input type="checkbox" name="show-password" id="toggle">
+				Show password
+			</label>
+		</div>
+
+		<button type="submit" class="btn btn-default">Log In</button>
+	</form>
+</div>
+<script type="text/javascript" src="script\vanillaJS.js"></script>
+</body>
+</html>
